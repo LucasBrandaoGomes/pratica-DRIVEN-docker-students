@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.ts",
-		"dev:migrate": "npx prisma migrate dev && ts-node index.ts"
+    "dev:migrate": "npx prisma migrate dev && ts-node index.ts",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
